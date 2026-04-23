@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Complete React Project",
+    "description": "Finish building the DigiTools React app with API integration",
+    "status": "in-progress",
+    "priority": "high",
+    "dueDate": "2026-04-25"
+  },
+  {
+    "id": 2,
+    "title": "Learn Tailwind CSS",
+    "description": "Practice grid, flex, and responsive design",
+    "status": "pending",
+    "priority": "medium",
+    "dueDate": "2026-04-28"
+  },
+  {
+    "id": 3,
+    "title": "Fix Cart Bug",
+    "description": "Resolve total price calculation issue in cart",
+    "status": "completed",
+    "priority": "high",
+    "dueDate": "2026-04-20"
+  },
+  {
+    "id": 4,
+    "title": "Build Login Page",
+    "description": "Create authentication UI using Tailwind and DaisyUI",
+    "status": "pending",
+    "priority": "high",
+    "dueDate": "2026-04-27"
+  },
+  {
+    "id": 5,
+    "title": "Practice JavaScript",
+    "description": "Solve 10 problems on arrays and objects",
+    "status": "in-progress",
+    "priority": "medium",
+    "dueDate": "2026-04-26"
+  },
+  {
+    "id": 6,
+    "title": "Update GitHub Repo",
+    "description": "Push latest project changes and update README",
+    "status": "pending",
+    "priority": "low",
+    "dueDate": "2026-04-30"
+  },
+  {
+    "id": 7,
+    "title": "Watch React Tutorial",
+    "description": "Complete 2 hours of React hooks tutorial",
+    "status": "pending",
+    "priority": "medium",
+    "dueDate": "2026-04-29"
+  },
+  {
+    "id": 8,
+    "title": "UI Improvement",
+    "description": "Improve navbar and card design",
+    "status": "in-progress",
+    "priority": "low",
+    "dueDate": "2026-04-27"
+  },
+  {
+    "id": 9,
+    "title": "API Integration",
+    "description": "Connect frontend with backend API",
+    "status": "pending",
+    "priority": "high",
+    "dueDate": "2026-05-01"
+  },
+  {
+    "id": 10,
+    "title": "Deploy Project",
+    "description": "Deploy project on Vercel or Netlify",
+    "status": "pending",
+    "priority": "high",
+    "dueDate": "2026-05-02"
+  }
+]
