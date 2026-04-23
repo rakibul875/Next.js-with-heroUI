@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import ThemeToggle from "../Theme/ThemeToggle";
 
 const NavBer = () => {
   return (
@@ -17,6 +18,9 @@ const NavBer = () => {
             <Link href="/tasks">Tasks</Link>
           </li>
         </ul>
+        <div className="">
+            <ThemeToggle/>
+        </div>
       </header>
     </nav>
   );
