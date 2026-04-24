@@ -1,7 +1,7 @@
 "use client";
 import { Envelope } from "@gravity-ui/icons";
 import { Button, Input, Label, Modal, Surface, TextField } from "@heroui/react";
-const AddTasks = () => {
+const AddTasks = ({handelTask}) => {
   return (
     <Modal>
       <Button variant="secondary">Add a Task</Button>
@@ -14,11 +14,10 @@ const AddTasks = () => {
                 <Envelope className="size-5" />
               </Modal.Icon>
               <Modal.Heading>Add a Task</Modal.Heading>
-             
             </Modal.Header>
             <Modal.Body className="p-6">
               <Surface variant="default">
-                <form className="flex flex-col gap-4">
+                <form action={handelTask} className="flex flex-col gap-4">
                   <TextField className="w-full" name="name" type="text">
                     <Label>Name</Label>
                     <Input placeholder="Enter your name" />
@@ -39,15 +38,15 @@ const AddTasks = () => {
                     <Label>Message</Label>
                     <Input placeholder="Enter your message" />
                   </TextField>
+                  <Modal.Footer>
+                    <Button slot="close" variant="secondary">
+                      Cancel
+                    </Button>
+                    <Button type="submit" slot="close">Send Message</Button>
+                  </Modal.Footer>
                 </form>
               </Surface>
             </Modal.Body>
-            <Modal.Footer>
-              <Button slot="close" variant="secondary">
-                Cancel
-              </Button>
-              <Button slot="close">Send Message</Button>
-            </Modal.Footer>
           </Modal.Dialog>
         </Modal.Container>
       </Modal.Backdrop>
